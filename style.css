@@ -283,6 +283,7 @@ body.page-contact   nav a[data-nav="contact"]{
 .past-links a,
 .past-links span{
   display:inline-flex;
+  flex:0 0 auto;        /* ★ 防止第二行被压缩重叠 */
   align-items:center;
   padding:8px 12px;
   border:1px solid var(--line);
@@ -291,18 +292,12 @@ body.page-contact   nav a[data-nav="contact"]{
   font-weight:600;
   font-size:16px;
   line-height:1;
-  white-space:normal;          /* ✅ 允许换行（不再撑爆布局） */
-}
-
-.past-links a:hover{
-  text-decoration:none;
-  background:#f3f4f6;
 }
 
 .past-dead{
   color:#6b7280;
   background:#fafafa;
-  font-style:normal;           /* ✅ 不用斜体，会议站更稳重 */
   border-style:dashed;
 }
+
 
