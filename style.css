@@ -269,4 +269,24 @@ body.page-contact   nav a[data-nav="contact"]{
   background:#eef2ff;
   color:#1d4ed8;
   font-weight:700;
+
+}
+
+/* ===== Past conference links layout ===== */
+.past-links{
+  display:flex;
+  flex-wrap:wrap;
+  gap:12px 20px;     /* 行间距 / 列间距 */
+  margin-top:8px;
+}
+
+.past-links a,
+.past-links span{
+  white-space:nowrap;
+  font-weight:500;
+}
+
+.past-dead{
+  color:#999;
+  font-style:italic;
 }
