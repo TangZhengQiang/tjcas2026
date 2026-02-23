@@ -272,21 +272,37 @@ body.page-contact   nav a[data-nav="contact"]{
 
 }
 
-/* ===== Past conference links layout ===== */
+/* ===== Past conference links layout (chip style) ===== */
 .past-links{
-  display:grid;
-  grid-template-columns: repeat(auto-fit, minmax(160px,1fr));
-  gap:10px 20px;
+  display:flex;
+  flex-wrap:wrap;
+  gap:12px;
+  margin-top:8px;
 }
 
 .past-links a,
 .past-links span{
-  white-space:nowrap;
-  font-weight:500;
+  display:inline-flex;
+  align-items:center;
+  padding:8px 12px;
+  border:1px solid var(--line);
+  border-radius:999px;
+  background:#fff;
+  font-weight:600;
+  font-size:16px;
+  line-height:1;
+  white-space:normal;          /* ✅ 允许换行（不再撑爆布局） */
+}
+
+.past-links a:hover{
+  text-decoration:none;
+  background:#f3f4f6;
 }
 
 .past-dead{
-  color:#999;
-  font-style:italic;
+  color:#6b7280;
+  background:#fafafa;
+  font-style:normal;           /* ✅ 不用斜体，会议站更稳重 */
+  border-style:dashed;
 }
 
