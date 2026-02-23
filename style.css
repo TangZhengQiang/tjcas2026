@@ -274,10 +274,9 @@ body.page-contact   nav a[data-nav="contact"]{
 
 /* ===== Past conference links layout ===== */
 .past-links{
-  display:flex;
-  flex-wrap:wrap;
-  gap:12px 20px;     /* 行间距 / 列间距 */
-  margin-top:8px;
+  display:grid;
+  grid-template-columns: repeat(auto-fit, minmax(160px,1fr));
+  gap:10px 20px;
 }
 
 .past-links a,
@@ -290,3 +289,4 @@ body.page-contact   nav a[data-nav="contact"]{
   color:#999;
   font-style:italic;
 }
+
