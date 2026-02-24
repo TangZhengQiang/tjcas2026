@@ -292,7 +292,7 @@ body.page-contact   nav a[data-nav="contact"]{
 
 /* ===================== Venue page helpers ===================== */
 .venue-img{
-  width:80%;
+  width:100%;
   height:auto;
   border-radius:12px;
   border:1px solid var(--line);
@@ -302,7 +302,6 @@ body.page-contact   nav a[data-nav="contact"]{
 
 .venue-note{
   margin:0;
-  text-align:center;      /* ⭐ 和图片对齐，看起来更专业 */
 }
 
 /* ===== Venue link button ===== */
@@ -321,6 +320,7 @@ body.page-contact   nav a[data-nav="contact"]{
 .venue-link:hover{
   background:#e5e7eb;
 }
+
 
 
 
