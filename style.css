@@ -292,7 +292,7 @@ body.page-contact   nav a[data-nav="contact"]{
 
 /* ===================== Venue page helpers ===================== */
 .venue-img{
-  width:100%;
+  width:60%;
   height:auto;
   border-radius:12px;
   border:1px solid var(--line);
@@ -320,3 +320,4 @@ body.page-contact   nav a[data-nav="contact"]{
 .venue-link:hover{
   background:#e5e7eb;
 }
+
