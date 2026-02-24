@@ -321,6 +321,13 @@ body.page-contact   nav a[data-nav="contact"]{
   background:#e5e7eb;
 }
 
+/* ===== Venue link group ===== */
+.venue-links{
+  display:flex;
+  gap:10px;
+  flex-wrap:wrap;
+  margin-top:10px;
+}
 
 
 
