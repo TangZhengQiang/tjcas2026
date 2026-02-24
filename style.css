@@ -289,3 +289,17 @@ body.page-contact   nav a[data-nav="contact"]{
   background:#fafafa;
   border-style:dashed;
 }
+
+/* ===================== Venue page helpers ===================== */
+.venue-img{
+  width:100%;
+  height:auto;
+  border-radius:12px;
+  border:1px solid var(--line);
+  margin-bottom:12px;
+  display:block;
+}
+
+.venue-note{
+  margin:0;
+}
