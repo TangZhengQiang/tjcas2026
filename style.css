@@ -292,13 +292,12 @@ body.page-contact   nav a[data-nav="contact"]{
 
 /* ===================== Venue page helpers ===================== */
 .venue-img{
-  width:80%;              /* 控制图片整体大小 */
-  max-width:520px;        /* ⭐ 防止大屏幕被拉太宽 */
+  width:80%;
   height:auto;
-  display:block;
-  margin:0 auto 12px;     /* ⭐ 关键：水平居中 */
   border-radius:12px;
   border:1px solid var(--line);
+  margin-bottom:12px;
+  display:block;
 }
 
 .venue-note{
@@ -322,6 +321,7 @@ body.page-contact   nav a[data-nav="contact"]{
 .venue-link:hover{
   background:#e5e7eb;
 }
+
 
 
 
