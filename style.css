@@ -254,6 +254,8 @@ footer{
 
 body.page-home      nav a[data-nav="home"],
 body.page-topics    nav a[data-nav="topics"],
+body.page-program   nav a[data-nav="program"],
+body.page-venue     nav a[data-nav="venue"],
 body.page-org       nav a[data-nav="org"],
 body.page-submission nav a[data-nav="submission"],
 body.page-registration nav a[data-nav="registration"],
@@ -292,7 +294,8 @@ body.page-contact   nav a[data-nav="contact"]{
 
 /* ===================== Venue page helpers ===================== */
 .venue-img{
-  width:60%;
+  width:100%;
+  max-width:720px;
   height:auto;
   border-radius:12px;
   border:1px solid var(--line);
@@ -327,6 +330,78 @@ body.page-contact   nav a[data-nav="contact"]{
   gap:10px;
   flex-wrap:wrap;
   margin-top:10px;
+}
+
+@media(max-width:900px){
+  body{font-size:18px}
+
+  .topbar{
+    flex-direction:column;
+    align-items:flex-start;
+  }
+
+  nav{
+    width:100%;
+    justify-content:flex-start;
+  }
+
+  .hero,
+  .hero-sub{
+    height:420px;
+  }
+
+  .hero h1,
+  .hero-sub h1{
+    font-size:32px;
+  }
+
+  .hero p,
+  .hero-sub p{
+    font-size:18px;
+  }
+}
+
+@media(max-width:640px){
+  .container{padding:0 18px}
+
+  .nav-link{
+    padding:8px 10px;
+    font-size:15px;
+  }
+
+  .cta{
+    padding:8px 12px;
+  }
+
+  .hero,
+  .hero-sub{
+    height:340px;
+  }
+
+  .hero .container,
+  .hero-sub .container{
+    padding-bottom:34px;
+  }
+
+  .hero h1,
+  .hero-sub h1{
+    font-size:28px;
+  }
+
+  .section-title{
+    font-size:21px;
+  }
+
+  .card{
+    padding:18px;
+  }
+
+  .past-links a,
+  .past-links span,
+  .venue-link{
+    width:100%;
+    justify-content:center;
+  }
 }
 
 
