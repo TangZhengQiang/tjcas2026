@@ -1,4 +1,4 @@
-# TJCAS 2026 Website
+﻿# TJCAS 2026 Website
 
 Official static website source for **TJCAS 2026**  
 Taiwan and Japan Conference on Circuits and Systems  
@@ -34,13 +34,16 @@ The website currently includes:
 |- topics.html
 |- 404.html
 |- style.css
-|- tjcas_Logo.png
-|- hamamatsu.jpg
-|- venue_reception.png
-|- venue_conference.png
-|- venue_banquet.png
-|- TJCAS2016_CFP.pdf
-|- TJCAS2018_CFP.pdf
+|- assets/
+|  |- images/
+|  |  |- tjcas_Logo.png
+|  |  |- hamamatsu.jpg
+|  |  |- venue_reception.png
+|  |  |- venue_conference.png
+|  |  `- venue_banquet.png
+|  `- cfp/
+|     |- TJCAS2016_CFP.pdf
+|     `- TJCAS2018_CFP.pdf
 `- templates/
    |- IEEEtran.zip
    |- sample_1column.docx
@@ -117,3 +120,4 @@ This repository is suitable for static hosting platforms such as:
 ## Repository Purpose
 
 This repository serves as the maintainable source of truth for the TJCAS 2026 website and related static materials.
+

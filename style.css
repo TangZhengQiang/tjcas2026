@@ -1,4 +1,4 @@
-/* =========================================================
+﻿/* =========================================================
    TJCAS 2026 Shared Stylesheet
    ========================================================= */
 
@@ -49,7 +49,7 @@ header{
 
 .brand{display:flex;align-items:center;gap:12px}
 
-/* ✅ Logo (image) */
+/* Logo (image) */
 .logo{
   height:42px;          /* keep header compact */
   width:auto;           /* keep aspect ratio */
@@ -107,7 +107,7 @@ nav{
       rgba(0,0,0,.15) 60%,
       rgba(0,0,0,.6) 100%
     ),
-    url("hamamatsu.jpg");
+    url("assets/images/hamamatsu.jpg");
   background-size:cover;
   background-position:center;
   color:#fff;
@@ -157,7 +157,7 @@ nav{
       rgba(0,0,0,.15) 60%,
       rgba(0,0,0,.6) 100%
     ),
-    url("hamamatsu.jpg");
+    url("assets/images/hamamatsu.jpg");
   background-size:cover;
   background-position:center;
   color:#fff;
@@ -453,6 +453,8 @@ body.page-contact   nav a[data-nav="contact"]{
     justify-content:center;
   }
 }
+
+
 
 
 
