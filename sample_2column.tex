@@ -1,0 +1,87 @@
+\documentclass[a4paper,conference]{IEEEtran}
+% I use dvipdfm driver... please replace it to your driver.
+\usepackage[dvipdfm]{graphicx}
+\usepackage[dvipdfm]{color}
+\usepackage[colorlinks=true,dvipdfm]{hyperref}
+
+\begin{document}
+
+\title{A Sample File for TJCAS (2 column)}
+
+\author{\authorblockN{Taro Okayama}
+\authorblockA{
+Dept. xxx.,\\
+xxx University \\
+Email: 
+\href{mailto:xxx@xxx}
+{xxx@xxx}
+}
+\and
+\authorblockN{Hanako Kurashiki}
+\authorblockA{Dept. yyy., \\
+yyy University \\
+\href{mailto:yyy@yyy}
+{yyy@yyy}
+}}
+
+\maketitle
+
+
+\IEEEpeerreviewmaketitle
+
+\section{Introduction}
+By default, this style file tries to compose a two-column manuscript. 
+If you prefer to make one column paper, declare 
+\verb+onecolumn+ as an option for \verb+\documentclass+. 
+Containing of colorful figures and pictures is absolutely welcome. 
+
+\section{PDF}
+\begin{enumerate}
+\item Please embed all fonts in your PDF as possible as you 
+can. 
+\item Do not exceed 10 MByte. 
+\item Do not make any protection for your PDF. All 
+manuscripts are subject to be manipulated (to put page 
+numbers, logo, etc.) 
+\item Even this style file produces letter size DVI file by default, 
+please convert it into A4 PDF format. Do not use US letter format since 
+the proceedings will be printed in A4 size. By using this IEEE class
+file, a wide bottom margin may be left, but this is regulated by the 
+IEEE publication policy. 
+\end{enumerate}
+
+\begin{figure}[htb]
+\begin{center}
+%
+% this statement is specialized for dvipdfm(x). 
+% 
+\includegraphics[width=1.0\columnwidth]{okayama_castle.eps}
+%
+\end{center}
+\caption{Okayama castle.}
+\end{figure}
+
+
+
+\begin{itemize}
+\item Okayama Korakuen Garden
+\item Kurashiki Bikan Historical Quarter
+\item Seto Inland Sea Cruising
+\end{itemize}
+
+\section{Conclusions}
+Skipping ``Conclusions'' or ``Concluding remarks'' is not a 
+bad idea if you have many contents for the text body. 
+
+
+\begin{thebibliography}{1}
+\bibitem{x}
+T. Okayama, \emph{Book name,} 3rd ed. Addison-hoge, Japan,
+2017. 
+\bibitem{y}
+H. Kurashiki and J. Hiruzen, ``Is SoftBank a soft bank ?'' IABCD Trans.
+hoge. Vol. 2, No. 3, pp. 23--34, 2017.
+\end{thebibliography}
+\end{document}
+
+

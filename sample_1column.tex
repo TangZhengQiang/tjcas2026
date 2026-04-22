@@ -1,0 +1,60 @@
+\documentclass[a4paper,conference, onecolumn]{IEEEtran}
+% I use dvipdfm driver... please replace it to your driver.
+\usepackage[dvipdfm]{graphicx}
+\usepackage[dvipdfm]{color}
+\usepackage[colorlinks=true,dvipdfm]{hyperref}
+
+\begin{document}
+
+\title{A Sample File for TJCAS (1 column)}
+
+\author{\authorblockN{Taro Okayama}
+\authorblockA{
+Dept. xxx.,\\
+xxx University \\
+Email: 
+\href{mailto:xxx@xxx}
+{xxx@xxx}
+}
+\and
+\authorblockN{Hanako Kurashiki}
+\authorblockA{Dept. yyy., \\
+yyy University \\
+\href{mailto:yyy@yyy}
+{yyy@yyy}
+}}
+
+\maketitle
+
+
+\IEEEpeerreviewmaketitle
+
+\section*{Summary}
+Figure \ref{castle} shows Okayama Castle.
+Since Okayama Castle was built in 1597, it has acted as the foundation for Okayama City's development~\cite{x,y}. Its exterior consisting of long, black shitami-itabari style wooden planks has earned it the nickname of ``Crow Castle''. Once a Japanese national treasure, the castle tower (tenshukaku) was burned down due to war damage during World War II. However, the castle tower—with three strata and six stories—has since been rebuilt. From the top of the tower, visitors can gaze upon the streets of Okayama City and Okayama Korakuen Garden located across the river.
+
+
+
+\begin{figure}[htb]
+\begin{center}
+%
+% this statement is specialized for dvipdfm(x). 
+% 
+\includegraphics[width=0.5\columnwidth]{okayama_castle.eps}
+%
+\end{center}
+\caption{Okayama castle.}
+\label{castle}
+\end{figure}
+
+\begin{thebibliography}{1}
+\bibitem{x}
+T. Okayama, \emph{Book name,} 3rd ed. Addison-hoge, Japan,
+2017. 
+\bibitem{y}
+H. Kurashiki and J. Hiruzen, ``Is SoftBank a soft bank ?'' IABCD Trans.
+hoge. Vol. 2, No. 3, pp. 23--34, 2017.
+\end{thebibliography}
+\end{document}
+
+

@@ -40,7 +40,13 @@ The website currently includes:
 |- venue_conference.png
 |- venue_banquet.png
 |- TJCAS2016_CFP.pdf
-`- TJCAS2018_CFP.pdf
+|- TJCAS2018_CFP.pdf
+`- templates/
+   |- IEEEtran.zip
+   |- sample_1column.docx
+   |- sample_1column.tex
+   |- sample_2column.docx
+   `- sample_2column.tex
 ```
 
 ## Main Files
