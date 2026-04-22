@@ -104,7 +104,7 @@ nav{
     linear-gradient(180deg,
       rgba(0,0,0,0) 0%,
       rgba(0,0,0,0) 45%,
-      rgba(0,0,0,.34) 100%
+      rgba(0,0,0,.55) 100%
     ),
     url("assets/images/hamamatsu.jpg");
   background-size:cover;
@@ -153,7 +153,7 @@ nav{
     linear-gradient(180deg,
       rgba(0,0,0,0) 0%,
       rgba(0,0,0,0) 45%,
-      rgba(0,0,0,.34) 100%
+      rgba(0,0,0,.55) 100%
     ),
     url("assets/images/hamamatsu.jpg");
   background-size:cover;
